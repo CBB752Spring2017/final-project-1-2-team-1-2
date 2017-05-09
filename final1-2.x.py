@@ -66,7 +66,7 @@ paths = os.listdir('.')
 path = [p for p in paths if 'ZSNPs' in p and 'sep' not in p]
 with open('Z.variantCall.SNPs_filt.vcf','r') as fz:
     zz  = fz.readlines()
-znn = len(zz) - 12
+znn = len(zz) - 12 ##the 12 includes the first line and those of MT SNPs
 with open('ZSNPs_statistics_more.txt','w') as fs:
     fs.write('\t'.join(['tissue','#zsnps','#snp-gene_paris','coverage','pct'])+'\n')
     for p in path:
