@@ -121,7 +121,7 @@ Results divide into three parts:
 
 First, from the number of SNPs in different tissues, it shows that more important tissues have a higher rate of SNPs to be recorded in GTEx eQTL database, which means to some extent they are more common. There are more than 5 thousand SNP sites that are common across the 5 tissues and resulting in more than 70 thousand SNP-gene pairs. This ranges from about 6% to less than 1% in each tissue. Among these, adipose cutaneous has the lowest percentage of SNP-gene pairs to be common, while brain cortex has the highest, which is consistent with the last conclusion. These data show that different tissues have different SNP sensitivity and tolerence, but most of the SNPs are tissue-specific.
 
-Here below is the number of SNPs and SNP-gene pairs of Zimmerome, coverage of Zimmerome SNPs, and the comprising proportion found existing in GTEx database(ZSNPs_statistics_more.txt): 
+Here below is the table that contains the numbers of SNPs and SNP-gene pairs of Zimmerome, coverage of Zimmerome SNPs, and the comprising proportion compared to GTEx database (same as ZSNPs_statistics_more.txt): 
 
 | tissue	| #zsnps	| #snp-gene_paris	| coverage | percentage |
 |:-----------|-------:|-------------:|------:|-------:|
