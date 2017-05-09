@@ -62,9 +62,13 @@ with open('ZSNPs_intersect_ordered.txt','w') as fo:
 
 ## get the statistics of the ZSNPs: tissues, numbers and percentages
 folder = './GTEx_Analysis_v6p_eQTL'
+paths = os.listdir('.')
 path = [p for p in paths if 'ZSNPs' in p and 'sep' not in p]
-with open('ZSNPs_statistics.txt','w') as fs:
-    fs.write('\t'.join(['tissue','#zsnps','#snp-gene_paris','pct'])+'\n')
+with open('Z.variantCall.SNPs_filt.vcf','r') as fz:
+    zz  = fz.readlines()
+znn = len(zz) - 12
+with open('ZSNPs_statistics_more.txt','w') as fs:
+    fs.write('\t'.join(['tissue','#zsnps','#snp-gene_paris','coverage','pct'])+'\n')
     for p in path:
         tname = p.split('.')[0].split('_')[1]
         zmut = pd.read_table(p,sep=' ')
@@ -74,5 +78,6 @@ with open('ZSNPs_statistics.txt','w') as fs:
         tsnp = pd.read_table(os.path.join(folder,tp))
         tmut = tsnp.shape[0]
 #        fname = p.split('.')[0]+'_sep.txt'
-        pct = float(zmut)/tmut
-        fs.write('\t'.join([tname,str(zmut),str(tmut),str(pct)])+'\n')
+        cov = float(zmut)/znn*100
+        pct = float(zmut)/tmut*100
+        fs.write('\t'.join([tname,str(zmut),str(tmut),str(cov),str(pct)])+'\n')
