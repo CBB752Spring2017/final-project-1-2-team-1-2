@@ -50,7 +50,7 @@ eQTL maps are assembled for many tissues, cell types, and conditions with the go
 
 To this end, eQTLs can be used in combination with results from genome-wide association studies (GWAS). These studies are performed in large groups to determine whether particular genetic variants are correlated with disease. eQTLs can then be used to bridge the gap in GWAS studies, by connecting a genetic variant to a change in gene expression, which may be causative of the disease phenotype. 
 
-<br>
+<hr>
 
 In 2010, the National Institutes of Health (NIH) began the Genotype-Tissue Expression (GTEx) Project. The overall goal of this project is to study how genetic changes affect disease via gene expression variation, with the eventual hope of developing preventions or treatments for diseases. To this end, the GTEx Project collects genome and expression data from many individuals and tissues for eQTL identification.
 
