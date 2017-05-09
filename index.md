@@ -35,7 +35,9 @@ Table of Contents
 
 
 ### Coding:
+Propose a tool to identify eQTLs in a subset of Carl’s variants using the GTEx database. What expression changes would you predict in Carl? Make sure to cover tissues that can be easily assayed.
 
+Basically the scripts want to find the Zimmerome SNPs that are biologically significant according to GTEx eQTL database.
 #### Documentation:
 ##### final1-2.2.py
 Version 2. This is a tissue-specific version of last code. Added a -t tissue specifier to achieve that. Also, a time indicator (by the lines read) is added to estimate required time.
