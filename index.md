@@ -11,6 +11,12 @@ Compare the variants in Carl’s genome with those found in the GTEx database. U
 Table of Contents
 -----------------------
 
+* [Introduction](#introduction)
+* [Writing](#writing)
+* [Coding](#coding)
+* [Pipeline](#pipeline)
+* [References](#references)
+
 
 
 
