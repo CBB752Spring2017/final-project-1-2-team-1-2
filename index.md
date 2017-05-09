@@ -169,7 +169,7 @@ The overall frequency of eQTLs identified through RegulomeDB is much smaller tha
 
 #### References:
 
-Albert FW, Kruglyak AM. 2015. The role of regulatory variation in complex traits and disease. Nature Reviews: Genetics 16:197-209.
+Albert FW, Kruglyak AM. 2015. The role of regulatory variation in complex traits and disease. <i>Nature Reviews: Genetics</i> 16:197-209.
 
 Genotype-Tissue Expression (GTEx). 2017. NIH; [March 31, 2017]. https://commonfund.nih.gov/GTEx/index
 
@@ -177,6 +177,6 @@ Genotype-Tissue Expression Project (GTEx). 2016. NIH; [January 7, 2016]. https:/
 
 NIH launches Genotype-Tissue Expression project. 2010. NIH; [July 17, 2012]. https://www.genome.gov/27541670/2010-release-nih-launches-genotypetissue-expression-project/
 
-Shabalin AA. 2012. Matrix eQTL: ultra fast eQTL analysis via large matrix operations. Bioinformatics 20:1353-1358.
+Shabalin AA. 2012. Matrix eQTL: ultra fast eQTL analysis via large matrix operations. <i>Bioinformatics</i> 20:1353-1358.
  
  
