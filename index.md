@@ -123,13 +123,13 @@ First, from the number of SNPs in different tissues, it shows that more importan
 
 Here below is the number of SNPs and SNP-gene pairs of Zimmerome, coverage of Zimmerome SNPs, and the comprising proportion found existing in GTEx database(ZSNPs_statistics_more.txt): 
 
-| tissue	| #zsnps	| #snp-gene_paris	| proportion |
-|:-----------|-------:|-------------:|------:|
-| Adipose Subcutaneous	| 137526	| 1311216	| 0.10 |
-| Brain Cortex	| 125373	| 154580	| 0.81 |
-| Liver	| 74823	| 189024	| 0.40 |
-| Pancreas	| 231229	| 526676	| 0.44 |
-| Whole Blood	| 448413	| 1060536	| 0.42 |
+| tissue	| #zsnps	| #snp-gene_paris	| coverage | percentage |
+|:-----------|-------:|-------------:|------:|-------:|
+| Adipose Subcutaneous	| 137526	| 1311216	| 3.93 | 10.5 |
+| Brain Cortex	| 125373	| 154580	| 3.59 | 81.1 |
+| Liver	| 74823	| 189024	| 2.14 | 39.6 |
+| Pancreas	| 231229	| 526676	| 6.61 | 43.9 |
+| Whole Blood	| 448413	| 1060536	| 12.8 | 42.2 |
 
 
 ### Pipeline:
