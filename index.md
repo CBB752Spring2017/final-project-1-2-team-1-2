@@ -117,11 +117,11 @@ Here I use Python 2.7. Files needed include Zimmerome SNP file (Z.variantCall.SN
 Results divide into three parts:
  1. I ran the code on five tissues of GTEx database: Adipose Subcutaneous, Brain Cortex, Live, Pancreas and Whole Blood. In this way, I filtered out those Zimmerome SNPs that are recorded in GTEx eQTL database: ZSNPs_*_sep.txt
  2. I then generate the intersect of SNPs across the five tissues (existing in all the five tissues): ZSNPs_intersect.txt
- 3. After that, I generate a statistical report to summarize the SNP information of these five tissues: ZSNPs_statistics.txt
+ 3. After that, I generate a statistical report to summarize the SNP information of these five tissues: ZSNPs_statistics_more.txt
 
 First, from the number of SNPs in different tissues, it shows that more important tissues have a higher rate of SNPs to be recorded in GTEx eQTL database, which means to some extent they are more common. There are more than 5 thousand SNP sites that are common across the 5 tissues and resulting in more than 70 thousand SNP-gene pairs. This ranges from about 6% to less than 1% in each tissue. Among these, adipose cutaneous has the lowest percentage of SNP-gene pairs to be common, while brain cortex has the highest, which is consistent with the last conclusion. These data show that different tissues have different SNP sensitivity and tolerence, but most of the SNPs are tissue-specific.
 
-Here below is the number of SNPs and SNP-gene pairs of Zimmerome, and the comprising proportion found existing in GTEx database: 
+Here below is the number of SNPs and SNP-gene pairs of Zimmerome, coverage of Zimmerome SNPs, and the comprising proportion found existing in GTEx database(ZSNPs_statistics_more.txt): 
 
 | tissue	| #zsnps	| #snp-gene_paris	| proportion |
 |:-----------|-------:|-------------:|------:|
