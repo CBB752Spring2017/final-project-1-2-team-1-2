@@ -17,7 +17,7 @@ Table of Contents
 **Contributors**
  -Writing: Olivia Justynski
  -Coding: Jiawei Wang
- -Pipeline:
+ -Pipeline: Yuyang Liu  
 
 ### Introduction:
 
@@ -129,19 +129,33 @@ Whole Blood	: 448413	: 1060536	: 0.42
 
 
 #### Documentation:
-
-
-#### Results:
-
-
-
-
-
+#### Part A. Test runs of the codes developed in the coding part  
+The germline SNP call set was compared with single-tissue eQTL dataset from GTEx portal using the codes developed in the previous part, with subcutaneous adipose tissue, liver, pancreas, brain cortex and whole blood chosen as reference tissues. Lists of identified eQTLs in subject Z’s genome as well as corresponding genes are attached to this summary. Data were further processed to estimate the cumulative effect of multiple SNPs on a single gene by calculating the sum of their effector size (normalized to standard deviation of gene expression in GTEx database). The subset of genes with cumulative effect of >10/<-10 change, as well as the top 10 genes with highest magnitude in increased/decreased expression was also attached to this file.  
+  
+#### Part B. Analysis with external software  
+SNP dataset of subject Z was annotated with dbSNP ID using the dbSNP VCF file containing all common SNPs, defined as SNPs whose minor allel has a frequency higher than 0.01 in at least one population tested. Due to limitations in data processing capacity of online platforms, a subset of SNPs located on the first 3,000,000 base pairs on chromosome 1 was extracted as input dataset, representing approximately 0.1% of human genome length. Annotation and extraction was carried out using the SnpEff platform.  
 
 
 
+#### Results:  
+Part A  
+The numbers of identified eQTLs range from ~75,000 to ~450,000 according to different tissues examined and accounts for up to 13% of SNPs in subject Z’s genome. The subset of genes expected to have elevated or decreased expression was processed with GO enrichment analysis for biological processes. No significant enrichment in any biological process was observed, consistent with the notion that the overall effect of SNPs in subject Z’s genome should be neutral and dispersed throughout different biological functions. However the total eQTL dataset was enriched in certain biological processes that are not immediately pertaining to the physiological function of the tissues examined; generally, immune-related genes are shown to have higher representation among eQTL-affected genes. The analysis reports were attached below. In addition, 5365 SNPs were found to be eQTLs in all tissues tested. GO enrichment analysis didn’t show any highlighted biological processes.  
+The distribution of cumulative effect was observed to be normal, with mean value around 0. However, genes significantly enriched in eQTLs that are predicted to have positive/negative effect on expression were also seen in the analysis. Scatter plot of genes and estimated sum of eQTL effector size is shown below.  
+  
+Part B  
+The input VCF files were analyzed using regulomedb.org online platform, which helped to identify 2587 SNPs from 3121 input lines.  48 SNPs (1.9% of total 2587 counts) scored 1f or above were predicted to affect protein binding and expression level. Additionally 253 SNPs (9.78% of input) scored 2c or higher are predicted “likely to affect binding”. Majority of eQTLs identified through this platform affecte gene expression in blood cells (monocytes and lymphoblastoid). Statistics of regulome scores of all SNPs tested is presented in the following chart.  
+One example of eQTL identified in subject Z’s genome is rs1886730, located on chromosome 1: 2488607, predicted to affect gene expression of TNFRSF14. The protein product is functionally related to immune and inflammatory responses and has been shown to mediate the entry of herpes simplex virus into the cytoplasm. Footprinting experiment showed that rs1886730 lies in the binding motif of the transcription factor FOXO6; ChIP-Seq experiment also indicates that the DNA sequence harboring the SNP binds with numerous transcription factors. In smooth muscle, lung and lymphoblastoid cells this genome region was found to be flanking actively transcribing TSS. It is likely that polymorphism at this nucleotide directly affects TNFRSF14 expression via modulating binding affinity of transcription factor to DNA. 
 
-#### Conclusions:
+
+
+
+
+
+
+
+
+#### Conclusions:  
+The overall frequency of eQTLs identified through RegulomeDB is much smaller than that observed through direct comparison with GTEx database. The possible explanation for such discrepancy lies in 1. Only the common SNPs (with frequency larger than 0.01 among at least one population) were used for annotating Carl’s genome, which potentially leads to the underestimation of eQTLs by ignoring rare SNPs; 2. Chromosomal bias in SNP and eQTL numbers.  The input sample represent only 0.1% of total genome at one terminus of chromosome 1, and may thus biasedly represent the distribution of eQTLs in different genomic regions. Majority of eQTLs identified through RegulomeDB comes from blood cells, which is consistent with our result from direct comparison with GTEx database. This tissue bias is possibly a result of larger sample size due to easy accessibility of blood; however, immune-related genes actively transcribed in leukocytes might be more prone to regulation by eQTLs, as our GO enrichment analysis showed specific enrichment in immune-related genes in other peripheral tissues.   
 
 
 
