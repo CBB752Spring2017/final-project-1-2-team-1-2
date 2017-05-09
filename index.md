@@ -130,6 +130,13 @@ Here below is the number of SNPs and SNP-gene pairs of Zimmerome, and the compri
 
 
 #### Documentation:  
+Part A. Test runs of the codes developed in the coding part  
+The germline SNP call set was compared with single-tissue eQTL dataset from GTEx portal using the codes developed in the previous part, with subcutaneous adipose tissue, liver, pancreas, brain cortex and whole blood chosen as reference tissues. Lists of identified eQTLs in subject Z’s genome as well as corresponding genes are attached to this summary. Data were further processed to estimate the cumulative effect of multiple SNPs on a single gene by calculating the sum of their effector size (normalized to standard deviation of gene expression in GTEx database). The subset of genes with cumulative effect of larger than 10 fold increase or decrease, as well as the top 10 genes with highest magnitude in increased/decreased expression was also attached to this file.  
+  
+Part B. Analysis with external software  
+SNP dataset of subject Z was annotated with dbSNP ID using the dbSNP VCF file containing all common SNPs, defined as SNPs whose minor allel has a frequency higher than 0.01 in at least one population tested. Due to limitations in data processing capacity of online platforms, a subset of SNPs located on the first 3,000,000 base pairs on chromosome 1 was extracted as input dataset, representing approximately 0.1% of human genome length. Annotation and extraction was carried out using the SnpEff platform.  
+
+
 
 #### Results:    
 Part A  
