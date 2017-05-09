@@ -117,19 +117,19 @@ Here I use Python 2.7. Files needed include Zimmerome SNP file (Z.variantCall.SN
 Results divide into three parts:
  1. I ran the code on five tissues of GTEx database: Adipose Subcutaneous, Brain Cortex, Live, Pancreas and Whole Blood. In this way, I filtered out those Zimmerome SNPs that are recorded in GTEx eQTL database: ZSNPs_*_sep.txt
  2. I then generate the intersect of SNPs across the five tissues (existing in all the five tissues): ZSNPs_intersect.txt
- 3. After that, I generate a statistical report to summarize the SNP information of these five tissues: ZSNPs_statistics_more.txt
+ 3. After that, I generate a statistical report to summarize the SNP information of these five tissues: ZSNPs_statistics.txt
 
 First, from the number of SNPs in different tissues, it shows that more important tissues have a higher rate of SNPs to be recorded in GTEx eQTL database, which means to some extent they are more common. There are more than 5 thousand SNP sites that are common across the 5 tissues and resulting in more than 70 thousand SNP-gene pairs. This ranges from about 6% to less than 1% in each tissue. Among these, adipose cutaneous has the lowest percentage of SNP-gene pairs to be common, while brain cortex has the highest, which is consistent with the last conclusion. These data show that different tissues have different SNP sensitivity and tolerence, but most of the SNPs are tissue-specific.
 
-Here below is the number of SNPs and SNP-gene pairs of Zimmerome, and the comprising proportion found existing in GTEx database (ZSNPs_statistics_more.txt)
+Here below is the number of SNPs and SNP-gene pairs of Zimmerome, and the comprising proportion found existing in GTEx database: 
 
-| tissue	| #zsnps	| #snp-gene_paris	| coverage| proportion |
-|:-----------|-------:|-------------:|------:|-------:|
-| Adipose Subcutaneous	| 137526	| 1311216	| 3.93 | 10.5 |
-| Brain Cortex	| 125373	| 154580	| 3.59 | 81.1 |
-| Liver	| 74823	| 189024	| 2.14 | 39.6 |
-| Pancreas	| 231229	| 526676	| 6.61 | 43.9 |
-| Whole Blood	| 448413	| 1060536	| 12.8 | 42.3 |
+| tissue	| #zsnps	| #snp-gene_paris	| proportion |
+|:-----------|-------:|-------------:|------:|
+| Adipose Subcutaneous	| 137526	| 1311216	| 0.10 |
+| Brain Cortex	| 125373	| 154580	| 0.81 |
+| Liver	| 74823	| 189024	| 0.40 |
+| Pancreas	| 231229	| 526676	| 0.44 |
+| Whole Blood	| 448413	| 1060536	| 0.42 |
 
 
 ### Pipeline:
@@ -180,7 +180,7 @@ The overall frequency of eQTLs identified through RegulomeDB is much smaller tha
 
 #### References:
 
-Albert FW, Kruglyak AM. 2015. The role of regulatory variation in complex traits and disease. <i>Nature Reviews: Genetics</i> 16:197-209.
+Albert FW, Kruglyak AM. 2015. The role of regulatory variation in complex traits and disease. <i>Nature Reviews: Genetics</i> <b>16</b>:197-209.
 
 Genotype-Tissue Expression (GTEx). 2017. NIH; [March 31, 2017]. https://commonfund.nih.gov/GTEx/index
 
@@ -188,6 +188,6 @@ Genotype-Tissue Expression Project (GTEx). 2016. NIH; [January 7, 2016]. https:/
 
 NIH launches Genotype-Tissue Expression project. 2010. NIH; [July 17, 2012]. https://www.genome.gov/27541670/2010-release-nih-launches-genotypetissue-expression-project/
 
-Shabalin AA. 2012. Matrix eQTL: ultra fast eQTL analysis via large matrix operations. <i>Bioinformatics</i> 20:1353-1358.
+Shabalin AA. 2012. Matrix eQTL: ultra fast eQTL analysis via large matrix operations. <i>Bioinformatics</i> <b>20</b>:1353-1358.
  
  
