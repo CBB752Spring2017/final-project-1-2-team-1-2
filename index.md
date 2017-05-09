@@ -62,7 +62,7 @@ Command line example of final1-2.2.py:
 > ###eQTL analysis of Zimmerome
 
 ##### Requirement
-Here I use Python 2.7. Files needed include Zimmerome SNP file (Z.variantCall.SNPs.vcf, but its comment was removed to generate a readable table), GTEx eQTL of different tissues (V6P, downloaded from GTEx portal). 
+Here I use Python 2.7. Files needed include Zimmerome SNP file (Z.variantCall.SNPs.vcf, from https://zimmerome.gersteinlab.org/2016/05/06/part01_gerstein/, but its comment was removed to generate a readable table), GTEx eQTL of different tissues (V6P, downloaded from GTEx portal, https://www.gtexportal.org/home/). 
 
 #### Results:
 Results divide into three parts:
