@@ -21,7 +21,7 @@ Table of Contents
 
 ### Introduction:
 
-In this project we discuss the effect of genetic variation on tissue-specific gene expression. We first describe eQTLs, which affect the tissue-specific expression of genes and may play a role in causing phenotypes, including disease. We also address GTEx, the extensive database of genetic and expression information that is used to predict causal variation. We next propose a computational tool that can be used to identify eQTLs in the genome of Carl Zimmer and predict changes of gene expression in specific tissues. Finally, we identify eQTLs in the Zimmerome in multiple tissues.
+In this project we discuss the effect of genetic variation on tissue-specific gene expression. We first describe eQTLs, which affect the tissue-specific expression of genes <i>and<i> may play a role in causing phenotypes, including disease. We also address GTEx, the extensive database of genetic and expression <b>information<b> that is used to predict causal variation. We next propose a computational tool that can be used to identify eQTLs in the genome of Carl Zimmer and predict changes of gene expression in specific tissues. Finally, we identify eQTLs in the Zimmerome in multiple tissues.
 
 
 
