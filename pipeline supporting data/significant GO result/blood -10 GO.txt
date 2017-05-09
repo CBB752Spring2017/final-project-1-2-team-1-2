@@ -1,0 +1,34 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (release 20170413)
+Annotation Version and Release Date:	GO Ontology database  Released 2017-04-24
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Bonferroni correction:	true
+Bonferroni count:	8475
+GO biological process complete	Homo sapiens - REFLIST (20972)	upload_1 (3)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (P-value)
+interferon-gamma-mediated signaling pathway (GO:0060333)	71	3	.01	+	 > 100	3.29E-04
+T cell costimulation (GO:0031295)	79	3	.01	+	 > 100	4.53E-04
+lymphocyte costimulation (GO:0031294)	82	3	.01	+	 > 100	5.07E-04
+antigen processing and presentation of exogenous peptide antigen via MHC class II (GO:0019886)	92	3	.01	+	 > 100	7.15E-04
+antigen processing and presentation of peptide antigen via MHC class II (GO:0002495)	93	3	.01	+	 > 100	7.39E-04
+antigen processing and presentation of peptide or polysaccharide antigen via MHC class II (GO:0002504)	94	3	.01	+	 > 100	7.63E-04
+cellular response to interferon-gamma (GO:0071346)	126	3	.02	+	 > 100	1.84E-03
+response to interferon-gamma (GO:0034341)	148	3	.02	+	 > 100	2.98E-03
+T cell receptor signaling pathway (GO:0050852)	152	3	.02	+	 > 100	3.23E-03
+antigen processing and presentation of exogenous peptide antigen (GO:0002478)	169	3	.02	+	 > 100	4.43E-03
+antigen processing and presentation of exogenous antigen (GO:0019884)	176	3	.03	+	 > 100	5.01E-03
+antigen processing and presentation of peptide antigen (GO:0048002)	179	3	.03	+	 > 100	5.27E-03
+positive regulation of T cell activation (GO:0050870)	214	3	.03	+	98.00	9.00E-03
+antigen processing and presentation (GO:0019882)	218	3	.03	+	96.20	9.52E-03
+positive regulation of leukocyte cell-cell adhesion (GO:1903039)	223	3	.03	+	94.04	1.02E-02
+antigen receptor-mediated signaling pathway (GO:0050851)	239	3	.03	+	87.75	1.25E-02
+positive regulation of cell-cell adhesion (GO:0022409)	253	3	.04	+	82.89	1.49E-02
+regulation of T cell activation (GO:0050863)	311	3	.04	+	67.43	2.76E-02
+regulation of leukocyte cell-cell adhesion (GO:1903037)	326	3	.05	+	64.33	3.18E-02
+positive regulation of lymphocyte activation (GO:0051251)	331	3	.05	+	63.36	3.33E-02
+positive regulation of leukocyte activation (GO:0002696)	357	3	.05	+	58.75	4.18E-02
+positive regulation of cell activation (GO:0050867)	366	3	.05	+	57.30	4.50E-02

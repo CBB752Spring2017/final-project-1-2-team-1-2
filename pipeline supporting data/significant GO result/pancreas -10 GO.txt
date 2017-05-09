@@ -1,0 +1,28 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (release 20170413)
+Annotation Version and Release Date:	GO Ontology database  Released 2017-04-24
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Bonferroni correction:	true
+Bonferroni count:	8475
+GO biological process complete	Homo sapiens - REFLIST (20972)	upload_1 (4)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (P-value)
+interferon-gamma-mediated signaling pathway (GO:0060333)	71	3	.01	+	 > 100	1.31E-03
+T cell costimulation (GO:0031295)	79	3	.02	+	 > 100	1.81E-03
+lymphocyte costimulation (GO:0031294)	82	3	.02	+	 > 100	2.02E-03
+antigen processing and presentation of exogenous peptide antigen via MHC class II (GO:0019886)	92	3	.02	+	 > 100	2.85E-03
+antigen processing and presentation of peptide antigen via MHC class II (GO:0002495)	93	3	.02	+	 > 100	2.95E-03
+antigen processing and presentation of peptide or polysaccharide antigen via MHC class II (GO:0002504)	94	3	.02	+	 > 100	3.04E-03
+cellular response to interferon-gamma (GO:0071346)	126	3	.02	+	 > 100	7.32E-03
+response to interferon-gamma (GO:0034341)	148	3	.03	+	 > 100	1.19E-02
+T cell receptor signaling pathway (GO:0050852)	152	3	.03	+	 > 100	1.28E-02
+antigen processing and presentation of exogenous peptide antigen (GO:0002478)	169	3	.03	+	93.07	1.76E-02
+antigen processing and presentation of exogenous antigen (GO:0019884)	176	3	.03	+	89.37	1.99E-02
+antigen processing and presentation of peptide antigen (GO:0048002)	179	3	.03	+	87.87	2.09E-02
+positive regulation of T cell activation (GO:0050870)	214	3	.04	+	73.50	3.57E-02
+antigen processing and presentation (GO:0019882)	218	3	.04	+	72.15	3.78E-02
+positive regulation of leukocyte cell-cell adhesion (GO:1903039)	223	3	.04	+	70.53	4.04E-02
+antigen receptor-mediated signaling pathway (GO:0050851)	239	3	.05	+	65.81	4.97E-02

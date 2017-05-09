@@ -1,0 +1,18 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (release 20170413)
+Annotation Version and Release Date:	GO Ontology database  Released 2017-04-24
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Bonferroni correction:	true
+Bonferroni count:	8475
+GO biological process complete	Homo sapiens - REFLIST (20972)	upload_1 (5)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (P-value)
+immunoglobulin mediated immune response (GO:0016064)	173	3	.04	+	72.74	4.70E-02
+B cell mediated immunity (GO:0019724)	175	3	.04	+	71.90	4.86E-02
+activation of immune response (GO:0002253)	545	4	.13	+	30.78	1.89E-02
+innate immune response (GO:0045087)	658	4	.16	+	25.50	4.00E-02
+positive regulation of immune response (GO:0050778)	694	4	.17	+	24.18	4.95E-02
+Unclassified (UNCLASSIFIED)	3706	1	.88	+	1.13	0.00E00

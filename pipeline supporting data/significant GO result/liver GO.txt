@@ -1,0 +1,15 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (release 20170413)
+Annotation Version and Release Date:	GO Ontology database  Released 2017-04-24
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Bonferroni correction:	true
+Bonferroni count:	8475
+GO biological process complete	Homo sapiens - REFLIST (20972)	upload_1 (521)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (P-value)
+antigen processing and presentation of peptide antigen via MHC class II (GO:0002495)	93	12	2.31	+	5.19	4.53E-02
+antigen processing and presentation of peptide antigen (GO:0048002)	179	17	4.45	+	3.82	3.32E-02
+Unclassified (UNCLASSIFIED)	3706	65	92.07	-	.71	0.00E00

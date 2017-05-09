@@ -1,0 +1,21 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (release 20170413)
+Annotation Version and Release Date:	GO Ontology database  Released 2017-04-24
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Bonferroni correction:	true
+Bonferroni count:	8475
+GO biological process complete	Homo sapiens - REFLIST (20972)	upload_1 (229)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (P-value)
+Unclassified (UNCLASSIFIED)	3706	48	40.47	+	1.19	0.00E00
+regulation of cellular process (GO:0050794)	10527	79	114.95	-	.69	9.99E-03
+single-multicellular organism process (GO:0044707)	5527	32	60.35	-	.53	3.82E-02
+multicellular organismal process (GO:0032501)	6615	37	72.23	-	.51	7.16E-04
+multicellular organism development (GO:0007275)	4746	25	51.82	-	.48	3.19E-02
+single-organism developmental process (GO:0044767)	5349	28	58.41	-	.48	4.71E-03
+developmental process (GO:0032502)	5433	28	59.32	-	.47	2.43E-03
+anatomical structure development (GO:0048856)	5073	26	55.39	-	.47	6.47E-03
+animal organ development (GO:0048513)	2967	10	32.40	-	.31	1.03E-02

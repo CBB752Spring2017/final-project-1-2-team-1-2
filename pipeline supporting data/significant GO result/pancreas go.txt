@@ -1,0 +1,25 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (release 20170413)
+Annotation Version and Release Date:	GO Ontology database  Released 2017-04-24
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Bonferroni correction:	true
+Bonferroni count:	8475
+GO biological process complete	Homo sapiens - REFLIST (20972)	upload_1 (1661)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (P-value)
+small molecule metabolic process (GO:0044281)	1792	198	141.93	+	1.40	1.47E-02
+single-organism metabolic process (GO:0044710)	3582	357	283.70	+	1.26	1.71E-02
+cellular metabolic process (GO:0044237)	8846	800	700.61	+	1.14	4.29E-03
+metabolic process (GO:0008152)	9812	887	777.12	+	1.14	3.31E-04
+biological_process (GO:0008150)	17266	1443	1367.48	+	1.06	2.40E-03
+Unclassified (UNCLASSIFIED)	3706	218	293.52	-	.74	0.00E00
+detection of stimulus (GO:0051606)	668	20	52.91	-	.38	1.22E-03
+sensory perception of chemical stimulus (GO:0007606)	529	14	41.90	-	.33	3.69E-03
+detection of stimulus involved in sensory perception (GO:0050906)	519	11	41.11	-	.27	1.72E-04
+detection of chemical stimulus involved in sensory perception (GO:0050907)	467	8	36.99	-	.22	6.21E-05
+detection of chemical stimulus (GO:0009593)	503	8	39.84	-	.20	6.05E-06
+sensory perception of smell (GO:0007608)	453	2	35.88	-	 < 0.2	1.06E-09
+detection of chemical stimulus involved in sensory perception of smell (GO:0050911)	423	1	33.50	-	 < 0.2	5.97E-10
