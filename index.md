@@ -21,8 +21,11 @@ Table of Contents
 
 
 **Contributors**
+
  -Writing: Olivia Justynski
+ 
  -Coding: Jiawei Wang
+ 
  -Pipeline: Yuyang Liu
 
 ### Introduction:
